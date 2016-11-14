@@ -29,8 +29,8 @@ order(c, decreasing = TRUE)
 
 # -------- quantile() tool --------
 b <- seq(0,354,  by = 1)
-# creats a data b from 0 to 200 in 1 point steps
-# => overall 201 values
+# creats a data b from 0 to 354 in 1 point steps
+# => overall 355 values
 quantile(b, probs = seq(0, 1, 0.25))
 # now you order the data b in 4 even data areas
 # this definition is "caused" by probs = seq(0, 1, 0.25)
