@@ -1,6 +1,6 @@
 install.packages("raster")
 
-z <- runif(100, min=-1, max = 1)
+z <- runif(100, min=0, max = 1)
 
 zz <- raster(nrows=10, ncols=10, vals=z)
 
