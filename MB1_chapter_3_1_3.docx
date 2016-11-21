@@ -1,0 +1,65 @@
+Four measuring campaigns were conducted in 2011
+during which most sites were investigated repeatedly (2 – 6 May, 22 – 27 May,
+25 – 28 July, 8 – 14 September, i.e. in calendar weeks 18, 21, 30 and 36). The
+measurements were arranged within a two-stage nested design, which was chosen
+for later upscaling purposes. Four grassland plots were distributed over the
+study area to cover the climatic gradients best. Each has an area of 750 x 750
+m2. Within one plot, Elementary Sampling Units (ESUs) are distributed, each
+situated within an individual land use segment, i.e. meadow. Special attention
+was paid to a sufficient distance (20 m) from field boundaries to avoid border
+areas (McCoy 2005). The ESUs constitute an area of 20m x 20 m, covering 3 x 3
+RapidEye pixels. During the campaigns, measurements were conducted at in total
+17, 20, 25 and 33 ESUs during the weeks 18, 21, 30 and 36, respectively. On
+every ESU, 20 measurement points were arranged on two diagonal transects,
+constituting a cross sampling scheme and keeping about 3.1 m distance between
+each sample point.
+
+ 
+
+LAI was measured indirectly in the field with
+the LICOR LAI-2000 Plant Canopy Analyzer (PCA) (LI-COR, Lincoln, Nebraska USA).
+Its optical technique is based on the measurement of visible light (320 nm –
+490 nm) transmittance through the canopy by comparing measured light
+intensities above (A) and below (B) the canopy (Jonckheere et al. 2004; Weiss
+et al. 2004). Within each ESU 20 B measurements were conducted, while the A
+measurements were repeated only 4 times just before the first and each fifth B
+measurement. From that comparison, the probability of seeing the sky when
+looking up through the canopy in different directions is derived, which is
+based on the two canopy structure parameters LAI and the mean foliage tilt
+angle (MTA) (LI-COR 2009). 
+
+During the measurements, a 270° view cap was
+used on the sensor head to mask out the operator. Measurements were as well
+conducted during overcast conditions as under direct sunlight, in which case
+the sensors head and the canopy under investigation were shaded. Measurements,
+for which the light intensity below the canopy exceeded the above measured
+value due to changing light conditions or operator errors, were excluded from
+the calculations. While the LAI value of the ESU relies in 75% of the cases on
+all 20 A and B measurement pairs, it is based in 23% of the cases on 19 – 16
+measurement pairs due to these exclusions. Only in 2 % of the cases less than
+16 measurement pairs were achieved. The average LAI was therefore considered to
+be representative for the respective ESU. 
+
+ 
+
+At 14 ESUs the LAI was additionally determined
+by destructive sampling. These direct measurements are used as a reference for
+the different derivation algorithms implemented in the LICOR software.At each
+sampling point an area of 1000 cm2 was chosen randomly within the ESU. The
+complete biomass was harvested in this sample. The samples where immediately
+packed into plastic bags and stored within a cooler until its storage in a
+refrigerator. On the same days, the harvested leaves were laid out on a white
+background in such a way that no overlap existed between adjacent leaves,
+flattened by a glass pane and photographed from nadir with a digital camera. On
+some dates, a scanner was available which was used to gain a picture of the
+flattened plant elements instead. In a last step these images were
+automatically segmented in foliage and background pixels. The number of pixels
+falling in the foliage class was related to the total area of the plane, and
+summed up in case the samples could not fit within one photograph. In calendar
+week 36, the workload was reduced by taking three subsets of the whole biomass
+of one sample, which were laid out and photographed in order to determine the
+LAI of the subset, dried, and weighted. That LAI was then scaled to the total
+harvested, dried, and weighted biomass by using the samples mean specific leaf
+area (SLA)(Landsberg and Gower 1997; Jonckheere et al. 2004). For the LAI
+determination, no distinction was made between green and senescent plant
+material, an assumption that is however in line with the LAI-2000 measurements.
