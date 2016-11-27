@@ -1,5 +1,7 @@
-install.packages("raster")
+install.packages("raster", repos = "http://cran.us.r-project.org")
 library(raster)
+install.packages("cluster", repos = "http://cran.us.r-project.org")
+library(cluster)
 
 # ---------------------------------------------------------
 
@@ -85,5 +87,3 @@ plot(new)
 
 allbands <- as.data.frame(allbands)
 clust <- kmeans(allbands, 10000)
-
- 
