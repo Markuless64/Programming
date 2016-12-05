@@ -86,4 +86,4 @@ new <- NDVI (allbands[[5]],allbands[[3]])
 plot(new)
 
 allbands <- as.data.frame(allbands)
-clust <- kmeans(allbands, 10000)
+clust <- kmeans(allbands, 3)

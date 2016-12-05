@@ -1,7 +1,7 @@
 ---
 title: "H_29_11"
 author: "Marcus Groll"
-date: "27 November 2016"
+date: "29 November 2016"
 output: slidy_presentation
 ---
 
@@ -9,6 +9,11 @@ output: slidy_presentation
 ## Slide with R Output
 
 ```{r}
+#Homework
+#Marcus Groll
+#29_11_2016
+#file:///F:/Uni/EAGLE/Program/Program_1/H_29_11.html#(1)
+
 install.packages("raster", repos = "http://cran.us.r-project.org")
 library(raster)
 install.packages("cluster", repos = "http://cran.us.r-project.org")
@@ -17,8 +22,6 @@ library(cluster)
 NDVI <- function (NIR,red){
   (NIR-red)/(NIR+red)
 }
-
-band3 <- raster("F:/Uni/EAGLE/MB1/01_Data/02_Raster/Landsat-5_Ammersee/LT51930272003195MTI01/LT51930272003195MTI01_B3.TIF")
 
 allbands  <- brick("F:/Uni/EAGLE/MB1/01_Data/02_Raster/RapidEye_Ammersee/re20110906_ortho_ls_prj_grto0509_sub.tif")
 
@@ -29,11 +32,6 @@ Rapid_NDVI <- NDVI (allbands[[5]],allbands[[3]])
 ## Slide with Plot
 
 ```{r pressure}
-
-plotRGB (allbands, 3,2,1)
-
-plotRGB (allbands, 3,2,1, stretch ="lin")
-
 plot(Rapid_NDVI)
 ```
 
