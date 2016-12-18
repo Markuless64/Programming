@@ -27,3 +27,7 @@ map_new <- ggR(map, forceCat = TRUE, geom_raster = TRUE)+
                     labels = c("Forest", "Meadow" , "Urban", "Water"))
 
 map_new
+
+val <- superClass (allbands, trainData = a,trainPartition = 0.7, responseCol = "Name")
+
+a[[Name]]
