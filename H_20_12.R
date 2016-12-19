@@ -16,8 +16,10 @@ new_poly<- drawPoly()
 new_crop <- crop(allbands, new_poly)
 x11()
 plotRGB(new_crop, 3,2,1, stretch = "lin")
-savePlot(filename = "F:/Uni/EAGLE/MB1/01_Data/02_Raster/RapidEye_Ammersee/new_crop.tif")
+writeRaster(new_crop, "F:/Uni/EAGLE/MB1/01_Data/02_Raster/RapidEye_Ammersee/new_crop_1", format = "GTiff")
 plot(t_data, add = T, col = "red")
+new_crop <- 1
+new_crop <- brick("F:/Uni/EAGLE/MB1/01_Data/02_Raster/RapidEye_Ammersee/new_crop_1.tif")
 
 View(t_data)
 
@@ -31,3 +33,18 @@ map_new <- ggR(map, forceCat = TRUE, geom_raster = TRUE)+
                     labels = c("Forest", "Meadow" , "Urban", "Water"))
 
 map_new
+
+
+NDVI <- function (NIR,red){
+(NIR-red)/(NIR+red)
+}
+
+ndvi <- overlay(allbands[[5]],allbands[[3]],fun = NDVI)
+plot(ndvi)
+
+SAVI <- function (NIR,red){
+  (NIR-red)/(NIR+red+0.5)*(1+0.5)
+}
+
+savi <- overlay(allbands[[5]],allbands[[3]],fun = SAVI, filename="savi.tif", format="GTiff")
+plot(savi)
